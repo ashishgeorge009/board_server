@@ -1,0 +1,26 @@
+{
+  "name": "drawboard_electron",
+  "version": "1.0.0",
+  "main": "client/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishgeorge009/drawboard_electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishgeorge009/drawboard_electron/issues"
+  },
+  "homepage": "https://github.com/ashishgeorge009/drawboard_electron#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
