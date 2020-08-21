@@ -26,9 +26,9 @@ io.on("connection", function (socket) {
         socket.broadcast.emit("redo");
     })
 })
-// app.get("/home", function (req, res) {
-//     res.end("<h1>Welcome to home Page</h1>")
-// })
+app.get("/", function (req, res) {
+    res.end("<h1>Use your installed Live Board</h1>")
+})
 //  connection
 httpServer.listen(3000, function () {
     console.log("Server started at port 3000");
